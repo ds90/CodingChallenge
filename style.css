@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: 100%;
+    color: white;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    background-color:rgba(0, 0, 0, 0.43); 
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    color: rgba(100, 218, 65, 100);
+}
+img {
+    margin-top: 50px;
+    width: 200px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(100, 218, 65, 100);
+    margin: auto;
+    width: 80%;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+main > div:last-child {
+    padding-bottom: 70px;
+}
+div > input[type="checkbox"]{
+    margin-top: 30px;
+}
+
+h2 {
+    display: inline-block;
+}
+
+.arrow:before {
+    content: "\21A6";
+  }
+
+/* Gestione barre carica */
+  div .carica{
+      border-radius: 5px;
+      padding: 7px;
+  }
+div .uno {
+    background-color: #EBB764;
+    color: #EBB764;
+    width: 40%;
+}
+div .due {
+    background-color:#5CC040;
+    color: #5CC040;
+    width: 60%;
+}
+div .tre {
+    background-color: #AE4945;
+    color: #AE4945;
+    width: 15%;
+}
